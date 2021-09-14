@@ -1,0 +1,354 @@
+body {
+	background-color: rgba(33, 31, 32, 1);	
+}
+.navigation-name {
+	display: none;
+}
+
+.navigation-about {
+position: absolute;
+width: 53px;
+height: 17px;
+left: 60px;
+top: 50px;
+color: white;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+}
+
+
+.navigation-projects {
+	position: absolute;
+width: 73px;
+height: 17px;
+left: 170px;
+top: 50px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+	color: rgba(243, 174, 158, 1);
+}
+
+.navigation-contact {
+	position: absolute;
+width: 70px;
+height: 17px;
+left: 290px;
+top: 50px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+color: #FFFFFF;
+}
+.contact-underline {
+	text-decoration: none;
+	color: white;
+}
+
+.project-1 {
+	position: absolute;
+	width: 414px;
+	height: 195px;
+	background: #F2ADA5;
+	left: 0px;
+	top: 130px;
+}
+
+/*.project-1:hover {
+cursor: pointer;
+opacity: 50%;
+}*/
+
+.project-1-name {
+position: absolute;
+width: 414px;
+height: 44px;
+left: 0px;
+top: 202px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+}
+
+.project-2 {
+position: absolute;
+width: 414px;
+height: 195px;
+top: 325px;
+left: 0;
+background: #F1D3AD;
+}
+.project-2:hover {
+cursor: pointer;
+opacity: 50%;
+}
+.project-2-name {
+position: absolute;
+width: 414px;
+height: 44px;
+left: 0px;
+top: 397px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+.project-3 {
+position: absolute;
+width: 414px;
+height: 195px;
+left: 0px;
+top: 520px;
+background: #ACD1BF;
+}
+.project-3:hover {
+cursor: pointer;
+opacity: 50%;
+}
+.project-3-name {
+position: absolute;
+width: 414px;
+height: 44px;
+left: 0px;
+top: 594px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+.project-4 {
+position: absolute;
+width: 414px;
+height: 195px;
+left: 0;
+top: 715px;
+background: #F79E1E;
+}
+.project-4:hover {
+cursor: pointer;
+opacity: 50%;
+}
+.project-4-name {
+position: absolute;
+width: 414px;
+height: 44px;
+left: 0px;
+top: 789px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+
+body {
+	background-color: rgba(33, 31, 32, 1);	
+}
+
+
+.navigation-name {
+	display: block;
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+		font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+
+.navigation-about {
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+		font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 5%;
+	left: 65%;
+}
+.navigation-projects {
+	color: rgba(243, 174, 158, 1);
+	font-family: helvetica;
+	font-size: 18px;
+		font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 5%;
+	left: 75%;
+}
+
+.navigation-contact {
+	color: white;
+	font-family: helvetica;
+	font-size: 18px;
+		font-style: normal;
+	font-weight: bold;
+	position: absolute;
+	top: 5%;
+	left: 85%;
+	text-decoration: none;
+}
+.contact-underline {
+	color: white;
+	text-decoration: none;
+}
+
+.project-1 {
+position: absolute;
+width: 720px;
+height: 610px;
+left: 0px;
+top: 196px;
+background: #F2ADA5;
+}
+.project-1:hover {
+cursor: pointer;
+opacity: 50%;
+}
+
+.project-1-name {
+position: absolute;
+width: 227px;
+height: 83px;
+left: 247px;
+top: 457px;
+z-index: 10;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+.project-2 {
+position: absolute;
+width: 720px;
+height: 610px;
+left: 720px;
+top: 196px;
+background: #F1D3AD;
+}
+.project-2:hover {
+cursor: pointer;
+opacity: 50%;
+}
+.project-2-name {
+position: absolute;
+width: 227px;
+height: 83px;
+left: 966px;
+top: 457px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+.project-3 {
+position: absolute;
+width: 721px;
+height: 610px;
+left: 0px;
+top: 806px;
+background: #F79E1E;
+}
+.project-3:hover {
+cursor: pointer;
+opacity: 50%;
+}
+.project-3-name {
+	position: absolute;
+width: 227px;
+height: 83px;
+left: 247px;
+top: 1069px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+.project-4 {
+position: absolute;
+width: 720px;
+height: 610px;
+left: 720px;
+top: 806px;
+background: #ACD1BF;
+}
+.project-4:hover {
+cursor: pointer;
+opacity: 50%;
+}
+.project-4-name {
+position: absolute;
+width: 227px;
+height: 85px;
+left: 966px;
+top: 1073px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
