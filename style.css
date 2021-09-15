@@ -174,7 +174,10 @@ color: #FFFFFF;
 }
 
 
-
+.header-underline {
+	color: white;
+	text-decoration: none;
+}
 
 @media only screen and (min-width: 800px) {
 
@@ -351,4 +354,9 @@ text-align: center;
 letter-spacing: 0.01em;
 
 color: #FFFFFF;
+}
+
+.header-underline {
+	color: white;
+	text-decoration: none;
 }
